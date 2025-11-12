@@ -43,6 +43,7 @@ function generatePassphrase(count, salt, capitalize){
 }
 
 document.addEventListener("DOMContentLoaded", () =>{
+
     const wordCountEl = document.getElementById("wordCount");
     const saltEl = document.getElementById("salt");
     const capitalizeEl = document.getElementById("capitalize");
