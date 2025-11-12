@@ -11,6 +11,14 @@
     "icons": {
         "128": "icons/icon128.png"
     },
-    "permissions": [
-    ]
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "passphrase-generator@example.com"
+        }
+    },
+   "data_collection_permissions": {
+      "storage": {
+         "description": "This add-on does not save anything to local or sends data to any servers. Just works offline."
+      }
+    }
 }

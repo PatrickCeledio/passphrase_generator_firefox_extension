@@ -2,10 +2,6 @@
 // Passphrase Generator with Salt and Random Number
 // November 11, 2025 - Patrick Celedio
 
-browser.theme.getCurrent().then(theme => {
-  console.log(theme.colors);
-});
-
 // Return a random word
 function randomWord(){
     
