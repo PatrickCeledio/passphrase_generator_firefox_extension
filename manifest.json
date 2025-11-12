@@ -13,7 +13,7 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "@extension-without-data-collection",
+            "id": "passphrase-generator@example.com",
             "data_collection_permissions": {
                 "required": ["none"]
             }
