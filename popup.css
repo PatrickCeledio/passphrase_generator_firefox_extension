@@ -1,5 +1,5 @@
 body {
-  background: var(--bg);
+  background: cornflowerblue;
   color: var(--fg);
   margin: 0; padding: 10px;
   font-family: sans-serif;
