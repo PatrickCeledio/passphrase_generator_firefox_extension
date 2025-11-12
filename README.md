@@ -24,4 +24,6 @@ A lightweight, offline-friendly Firefox extension that generates secure and huma
 1. Download or clone this repository and save to a known directory
 2. Go to ```about:debugging#/runtime/this-firefox```
 3. Click “Load Temporary Add-on…”
-4. Select your ```manifest.json``` inside the folder. 
+4. Select and open the ```manifest.json``` inside the folder. 
+5. Simple Passphrase Generator should now appear in your extensions. 
+6. Right click to Pin to Taskbar.
