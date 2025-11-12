@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Passphrase Generator with Salt and Random Number",
+    "version": "1.0",
+    "description": "Passphrase Generator with Salt and Random Number",
+    "author": "Patrick Celedio",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Passphrase Generator"
+    },
+    "icons": {
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+    ]
+}

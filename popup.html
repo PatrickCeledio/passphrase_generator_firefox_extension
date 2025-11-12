@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passphrase Generator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <script src="wordlist.js"></script>
+    <script src="popup.js"></script>
+
+    <h1>Passphrase Generator </h1>
+
+    <label>
+        Words:
+        <input id="wordCount" type="number" value="4" min="2" max="12">
+    </label>
+
+    <label>
+        Salt:
+        <input id="salt" type="text" value="#">
+    </label>
+
+    <label>
+        <input id="capitalize" type="checkbox">
+        Capitalize words
+    </label>
+
+    <button id="generate">Generate</button>
+    
+    <textarea id="result" readonly></textarea>
+    <button id="copy">Copy</button>
+    <span id="copyStatus" class="status"></span>
+    
+    <footer id="credit">
+        <a href="https://iampjc.com/">© 2025 iampjc</a>
+    </footer>
+</body>
+</html>

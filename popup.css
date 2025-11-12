@@ -1,0 +1,68 @@
+body {
+  background-color: rgba(100, 148, 237, 0.596);
+  color: var(--arrowpanel-color);
+  font-family: sans-serif;
+  min-width: 220px;
+  padding: 10px;
+  border: 1px solid var(--arrowpanel-border-color);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+button {
+  background-color: color-mix(in srgb, var(--toolbarbutton-icon-fill) 80%, rgb(189, 181, 181));
+  color: var(--arrowpanel-background);
+  border: 2px solid var(--arrowpanel-border-color);
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* soft shadow */
+  transition: all 0.15s ease;
+}
+button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+button:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+#result {
+  width: 100%;
+  height: 100px;
+  margin-top: 16px;
+}
+#credit {
+  text-align: right;
+  font-size: 10px;
+  color: gray;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+.status {
+  margin-left: 6px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: green;
+}
+@media (prefers-color-scheme: dark) {
+  button {
+    background-color: color-mix(in srgb, var(--toolbarbutton-icon-fill) 80%, black);
+  }
+}
