@@ -13,12 +13,15 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "passphrase-generator@example.com"
+            "id": "passphrase-generator@example.com",
+            "data_collection_permissions": {
+            "required": [
+             ""
+            ],
+          "optional": [
+             ""
+            ]
+            }
         }
-    },
-   "data_collection_permissions": {
-      "storage": {
-         "description": "This add-on does not save anything to local or sends data to any servers. Just works offline."
-      }
     }
 }
