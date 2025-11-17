@@ -27,3 +27,10 @@ A lightweight, offline-friendly Firefox extension that generates secure and huma
 4. Select and open the ```manifest.json``` inside the folder. 
 5. Simple Passphrase Generator should now appear in your extensions. 
 6. Right click to Pin to Taskbar.
+
+## 🍔 How to Download And Install To Firefox
+
+1. Click on this link https://addons.mozilla.org/en-US/firefox/addon/simple-passphrase-generator/
+2. On the webpage, click "Add to Firefox"
+3. ?????
+4. Profit!!!
